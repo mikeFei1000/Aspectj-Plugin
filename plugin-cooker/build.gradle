@@ -11,6 +11,23 @@ buildscript {
 
 }
 
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+sourceSets {
+    main {
+        groovy {
+            srcDirs = ['src/main/groovy']
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ['src/main/java', 'src/main/groovy', 'src/test/java']
+        }
+    }
+}
+
 dependencies {
     compile gradleApi()
     compile localGroovy()
