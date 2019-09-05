@@ -1,6 +1,7 @@
 apply plugin: 'groovy'
-//添加maven plugin, 用于发布我们的jar
-apply plugin: 'maven'
+apply plugin: 'java'
+
+apply from: 'upload.gradle'
 
 buildscript {
     repositories {
@@ -17,20 +18,4 @@ dependencies {
     compile 'org.aspectj:aspectjtools:1.9.4'
     compile 'org.aspectj:aspectjrt:1.9.4'
     compile 'com.android.tools.build:gradle:3.5.0'
-}
-
-//设置maven deployer
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            pom.project {
-                groupId 'com.mikefei.plugin' //决定jar文件生成的目录
-                artifactId 'cooker-plugin'  //模块的名称
-                version '1.0.0'  //指定版本号
-                packaging 'jar'
-            }
-            //文件发布到下面目录
-            repository(url: uri('../release'))
-        }
-    }
 }
