@@ -1,7 +1,7 @@
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-version = "1.0.0" //版本
+version = "1.0.2" //版本
 
 // 定义相关网站
 def siteUrl = 'https://github.com/mikeFei1000/Aspectj-Plugin'  // 项目的主页
