@@ -1,0 +1,2 @@
+include ':app','plugin-cooker'
+rootProject.name='aspectj-plugin'

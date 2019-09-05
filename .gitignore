@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/caches
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+### Android ###
+# Built application files
+*.apk
+*.ap_
+*.aab
+### Android Patch ###
+gen-external-apklibs
+output.json
