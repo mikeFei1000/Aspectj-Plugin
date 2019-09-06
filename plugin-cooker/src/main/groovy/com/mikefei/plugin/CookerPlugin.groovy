@@ -1,3 +1,5 @@
+package com.mikefei.plugin
+
 import com.android.build.gradle.AppPlugin
 import com.android.build.gradle.LibraryPlugin
 import org.aspectj.bridge.IMessage
