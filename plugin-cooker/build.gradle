@@ -33,5 +33,5 @@ dependencies {
     compile localGroovy()
     compile 'org.aspectj:aspectjtools:1.9.4'
     compile 'org.aspectj:aspectjrt:1.9.4'
-    compile 'com.android.tools.build:gradle:3.5.0'
+    compile 'com.android.tools.build:gradle:3.3.2'
 }
