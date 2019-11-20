@@ -1,5 +1,6 @@
 # Aspectj-Plugin
-Android 模块依赖Aspectj插件
+Android 模块依赖Aspectj插件  
+
 对组件化的工程来说，不需要每个模块都加上这么长的Aspectj配置，现在只需要一句代码就可以了
 
 ### root project build.gradle
