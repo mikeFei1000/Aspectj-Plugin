@@ -15,4 +15,8 @@ dependencies {
         classpath 'com.mikefei.project.plugin:plugin-cooker:1.0.6'
 }
 ```
-#
+### Use Aspectj module build.gradle
+```
+//if this module use Aspectj add this
+apply plugin: 'com.mikefei.plugin'
+```
