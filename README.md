@@ -1,7 +1,8 @@
 # Aspectj-Plugin
-Android Aspectj module Plugin - Android 模块依赖Aspectj插件
+Android 模块依赖Aspectj插件
 
-#root project build.gradle
+### root project build.gradle
+```
 allprojects {
     repositories {
         jcenter()
@@ -13,5 +14,5 @@ allprojects {
 dependencies {
         classpath 'com.mikefei.project.plugin:plugin-cooker:1.0.6'
 }
-
+```
 #
